@@ -29,26 +29,21 @@ src/
   platform.html       # operations dashboard
   assets/
     css/style.css
-    js/main.js        # nav, reveal animations, dashboard simulation
+    js/main.js        # nav, reveal animations, mini feed
     fonts/            # self-hosted Barlow + JetBrains Mono
     img/              # cropped capability tiles and dashboard capture
-
-site-java/
-  src/iq/secureiq/    # early Java 17 server-rendered port (work in progress)
-  assets/             # staged styles and images for the port
 ```
 
 ## Stack
 
 - Semantic HTML, hand-written CSS, vanilla JavaScript
 - Self-hosted variable-free WOFF2 fonts (Barlow, Barlow Semi Condensed, JetBrains Mono)
-- Responsive from 360 px upward; mobile navigation uses native `<details>`
+- Responsive from 360 px upward with a collapsible, keyboard-accessible mobile nav
 - No framework, no bundler, no runtime dependencies
 
 ## Status and limitations
 
 - **Dashboard data is simulated in the browser.** It is a UI and operations-workflow prototype, not a live feed and not connected to real cameras, controllers or access panels.
-- The **Java 17 server-rendered port is in progress**. Only the content model and event record exist so far; there is no HTTP server or build script yet.
 - The dashboard's anomaly figures are demonstration values. They are not a validated model result.
 
 ## Imagery

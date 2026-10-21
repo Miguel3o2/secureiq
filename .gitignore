@@ -13,7 +13,6 @@ desktop.ini
 
 /src/qa-mobile.html
 
-site-java/out/
 *.class
 
 .env

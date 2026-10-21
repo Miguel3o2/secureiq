@@ -8,15 +8,15 @@ The site presents 16 system families across three domains — ICT, audio-visual 
 
 | Page | Path | Purpose |
 | --- | --- | --- |
-| Capability platform | `site/index.html` | ICT / AV / security domains, scope, delivery model, standards and contact |
-| Operations dashboard | `site/platform.html` | Zone risk scores, alert feed, timeline, event volume, heatmap and KPI tiles |
+| Capability platform | `src/index.html` | ICT / AV / security domains, scope, delivery model, standards and contact |
+| Operations dashboard | `src/platform.html` | Zone risk scores, alert feed, timeline, event volume, heatmap and KPI tiles |
 
 ## Run locally
 
 No build step, no dependencies. From the repository root:
 
 ```bash
-python -m http.server 8080 --directory site
+python -m http.server 8080 --directory src
 ```
 
 Then open <http://localhost:8080>. Any static file server works.
@@ -24,7 +24,7 @@ Then open <http://localhost:8080>. Any static file server works.
 ## Structure
 
 ```
-site/
+src/
   index.html          # capability platform
   platform.html       # operations dashboard
   assets/

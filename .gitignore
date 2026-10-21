@@ -11,7 +11,7 @@ desktop.ini
 /*.jpg
 /SecureIQ*.html
 
-/site/qa-mobile.html
+/src/qa-mobile.html
 
 site-java/out/
 *.class
